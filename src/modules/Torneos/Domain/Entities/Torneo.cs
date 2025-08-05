@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace examenliga.src.modules.Domain.Entities;
+namespace examenliga_c.src.modules.Torneos.Domain.Entities;
 
 public class Torneo
 {

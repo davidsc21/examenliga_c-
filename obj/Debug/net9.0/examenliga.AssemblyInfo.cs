@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("examenliga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc470a317f7095275da693c718ee5a5d49667f6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a09193941f6acb5ae5e630e5e1c74887046400d")]
 [assembly: System.Reflection.AssemblyProductAttribute("examenliga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("examenliga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

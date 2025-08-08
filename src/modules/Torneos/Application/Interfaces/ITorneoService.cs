@@ -9,8 +9,8 @@ namespace examenliga_c.src.modules.Torneos.Application.Interfaces
 {
     public interface ITorneoService
     {
-        Task RegistrarTorneoConTareaAsync(string nombre, string email);
-        Task ActualizarTorneo(int id, string nuevoNombre, string nuevoEmail);
+        Task RegistrarTorneoConTareaAsync(string nombre, string tipo);
+        Task ActualizarTorneo(int id, string nuevoNombre, string nuevoTipo);
         Task EliminarTorneo(int id);
         Task<Torneo?> ObtenerTorneoPorIdAsync(int id);
         Task<IEnumerable<Torneo>> ConsultarTorneosAsync();

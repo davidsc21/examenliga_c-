@@ -11,14 +11,19 @@ namespace examenliga_c.src.Shared.Configurations
     public class TorneoConfiguration : IEntityTypeConfiguration<Torneo>
     {
         public void Configure(EntityTypeBuilder<Torneo> builder)
-    {
-        builder.ToTable("Toreno");
+        {
+            builder.ToTable("Torneo");
 
-        builder.HasKey(t => t.Id);
+            builder.HasKey(t => t.Id);
 
-        builder.Property(t => t.Name)
+            builder.Property(t => t.Name)
+                    .IsRequired()
+                    .HasMaxLength(100);
+
+            builder.Property(t => t.Tipo)
                .IsRequired()
                .HasMaxLength(100);
+            
     }
     }
 }
